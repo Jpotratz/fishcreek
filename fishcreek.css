@@ -1,0 +1,21 @@
+body {background-color: #6699FF;
+  font-family: Verdana;
+  color: #D5E3FF}
+header {background-color: #6699FF;
+  font-family: serif;
+  color: #003366}
+h1 {line-height: 200%;}
+nav {font-weight: bold;}
+.category {
+  font-weight: bold;
+  background-color: #6699FF;
+  color: #003366;
+  font-size: 1.1em
+}
+footer {font-size: 0.7em;
+  font-style: italic;}
+#wrapper {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}

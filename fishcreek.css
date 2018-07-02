@@ -1,23 +1,39 @@
-body
- {background-color: #6699FF;
+header, nav, main, footer { display: block;}
+body {
   font-family: Verdana;
-  color: #D5E3FF}
-header
- {background-color: #6699FF;
-  font-family: serif;
-  color: #003366}
-h1
- {text-align: center;}
-nav
- {font-weight: bold;
- text-align: center;}
-footer
- {font-size: 0.7em;
-  font-style: italic;}
-img
-  {border-style: : none;}
-footer nav{
-  text-align: left;
+  color: #D5E3FF;
+  background-image: url("gradientblue.jpg")
+}
+header {
+  background-color: #000066;
+  color: #FFFFFF
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+  padding: 10px;
+  line-height: 150%;
+  text-shadow:color: #CCCCCC;
+}
+nav {
+  font-weight: bold;
+  float: left;
+  width: 150px
+}
+footer {
+  padding: 10px;
+  margin-left: 180px;
+  font-size: 0.7em;
+  font-style: italic;
+}
+img {
+  border-style: none;
+}
+main {
+  float: right;
+  margin-left: 180px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 #wrapper {
   width: 80%;
@@ -25,11 +41,34 @@ footer nav{
   margin-left: auto;
   min-width: 700px;
   max-width: 1024px;
+  background-color: #FFFFFF;
+  color: #000066;
 }
 .category {
   font-weight: bold;
-  background-color: #6699FF;
+  background-color: #FFFFFF;
   color: #003366;
   font-size: 1.1em;
   text-shadow: 1px 1px 1px #667;
+}
+* {
+   box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #3262A3;
+}
+a:visited {
+  color: #6699FF;
+}
+a:hover {
+  color: #CCCCCC;
 }

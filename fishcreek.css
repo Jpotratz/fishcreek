@@ -9,6 +9,7 @@ header {
   color: #FFFFFF
 }
 h1 {
+  position: relative;
   text-align: center;
   font-size: 3em;
   padding: 10px;
@@ -16,11 +17,13 @@ h1 {
   text-shadow:color: #CCCCCC;
 }
 nav {
+  position: relative;
   font-weight: bold;
   float: left;
   width: 150px
 }
 footer {
+  position:relative;
   padding: 10px;
   margin-left: 180px;
   font-size: 0.7em;
@@ -30,7 +33,7 @@ img {
   border-style: none;
 }
 main {
-  float: right;
+  position: relative;
   margin-left: 180px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -43,6 +46,9 @@ main {
   max-width: 1024px;
   background-color: #FFFFFF;
   color: #000066;
+}
+.header-site{
+   background: url("bigfish.gif") no-repeat top center;
 }
 .category {
   font-weight: bold;

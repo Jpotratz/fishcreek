@@ -27,6 +27,37 @@ footer {
   font-size: 0.7em;
   font-style: italic;
 }
+table {
+  border: 2px solid dark blue;
+  border-collapse: collapse;
+}
+td {
+  padding: 0.5em;
+  border: 1px solid dark blue;
+}
+th {
+  padding: 0.5em;
+  border: 1px solid dark blue;
+}
+label {
+  float: left;
+  display: block;
+  text-align: right;
+  width: 8em;
+  padding-right: 1em;
+}
+input {
+  display: block;
+  margin-bottom: 1em;
+}
+textarea {
+  display: block;
+  margin-bottom: 1em;
+}
+#mySubmit {
+  margin-left: 9.5em;
+}
+
 img {
   border-style: none;
 }
